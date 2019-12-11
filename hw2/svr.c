@@ -15,7 +15,7 @@ char climsg[BUFF_SIZE];
 char buff[BUFF_SIZE];
 pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 
-char board[9] = ".........";
+char board[10] = ".........";
 
 int users[100] = {0};
 int playwith[100] = {0};
@@ -154,7 +154,7 @@ printf("%d %s %d\n", curUser, inp, aite);
 				}
 				playwith[curUser] = 0;
 				aite = -1;
-				strcat(board, ".........");
+				strcpy(board, ".........");
 			}
 		}		
 	}
