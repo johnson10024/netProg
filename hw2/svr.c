@@ -22,6 +22,8 @@ int playwith[100] = {0};
 int userCount = 0;
 char inp[100];
 
+int cand;
+
 int win()
 {
 	int result = 0;
@@ -107,6 +109,7 @@ printf("%d %s %d\n", curUser, inp, aite);
 				sprintf(buff, "%d Accepted\n", aite);
 				playwith[aite] = curUser;
 				playwith[curUser] = aite;
+				cand = curUser;
 
 				write(newSocket, buff, strlen(buff));
 			}
@@ -123,14 +126,20 @@ printf("%d %s %d\n", curUser, inp, aite);
 			int pos1, pos2;
 			sscanf(climsg, "%s %d %d", inp, &pos1, &pos2);
 
-			if(pos1 < 0 || pos1 >= 3 || pos2 < 0 || pos2 >= 3)
+			if(pos1 < 0 || pos1 >= 3 || pos2 < 0 || pos2 >= 3 || cand != curUser)
 			{
 				write(newSocket, "Invalid Move!\n", 14);
 				continue;
 			}
 
-			if(curUser < playwith[curUser]) board[3 * pos1 + pos2] = 'x';
-			else board[3 * pos1 + pos2] = 'o';
+			if(curUser < playwith[curUser])
+			{
+				board[3 * pos1 + pos2] = 'x';
+			}
+			else
+			{
+				board[3 * pos1 + pos2] = 'o';
+			}
 
 			int cur = 0;
 			for(int i = 0; i < 9; i++)
@@ -156,6 +165,8 @@ printf("%d %s %d\n", curUser, inp, aite);
 				aite = -1;
 				strcpy(board, ".........");
 			}
+
+			cand = playwith[curUser];
 		}		
 	}
 	
