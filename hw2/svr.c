@@ -15,33 +15,43 @@ char climsg[BUFF_SIZE];
 char buff[BUFF_SIZE];
 pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 
-char board[10] = ".........";
+char board[10][10];
 
 int users[100] = {0};
 int playwith[100] = {0};
 int userCount = 0;
 char inp[100];
 
-int cand;
+int cand[10];
+int curBoard[100];
+int boardCount = 0;
 
-int win()
+void board_init()
+{
+	for(int i = 0; i < 10; i++)
+	{
+		strcpy(board[i], ".........");
+	}
+}
+
+int win(int b)
 {
 	int result = 0;
-	if(board[0] == board[1] && board[1] == board[2] && board[2] != '.') result = 1;
-	if(board[3] == board[4] && board[4] == board[5] && board[5] != '.') result = 1;
-	if(board[6] == board[7] && board[7] == board[8] && board[8] != '.') result = 1;
+	if(board[b][0] == board[b][1] && board[b][1] == board[b][2] && board[b][2] != '.') result = 1;
+	if(board[b][3] == board[b][4] && board[b][4] == board[b][5] && board[b][5] != '.') result = 1;
+	if(board[b][6] == board[b][7] && board[b][7] == board[b][8] && board[b][8] != '.') result = 1;
 
-	if(board[0] == board[3] && board[3] == board[6] && board[6] != '.') result = 1;
-	if(board[1] == board[7] && board[7] == board[4] && board[4] != '.') result = 1;
-	if(board[2] == board[5] && board[5] == board[8] && board[8] != '.') result = 1;
+	if(board[b][0] == board[b][3] && board[b][3] == board[b][6] && board[b][6] != '.') result = 1;
+	if(board[b][1] == board[b][7] && board[b][7] == board[b][4] && board[b][4] != '.') result = 1;
+	if(board[b][2] == board[b][5] && board[b][5] == board[b][8] && board[b][8] != '.') result = 1;
 
-	if(board[0] == board[4] && board[4] == board[8] && board[8] != '.') result = 1;
-	if(board[2] == board[4] && board[4] == board[6] && board[6] != '.') result = 1;
+	if(board[b][0] == board[b][4] && board[b][4] == board[b][8] && board[b][8] != '.') result = 1;
+	if(board[b][2] == board[b][4] && board[b][4] == board[b][6] && board[b][6] != '.') result = 1;
 
 	int isdraw = 1;
 	for(int i = 0; i < 9; i++)
 	{
-		if(board[i] == '.')
+		if(board[b][i] == '.')
 		{
 			isdraw = 0;
 			break;
@@ -100,7 +110,7 @@ void *thread(void *arg)
 			sscanf(climsg, "%s %d", inp, &aite);
 printf("%d %s %d\n", curUser, inp, aite);
 
-			if(playwith[aite] != 0)
+			if(playwith[aite] != 0 || aite == curUser)
 			{
 				write(newSocket, "Rejected!\n", 11);
 			}
@@ -109,7 +119,10 @@ printf("%d %s %d\n", curUser, inp, aite);
 				sprintf(buff, "%d Accepted\n", aite);
 				playwith[aite] = curUser;
 				playwith[curUser] = aite;
-				cand = curUser;
+				curBoard[curUser] = boardCount;
+				curBoard[aite] = boardCount++;
+				boardCount %= 10;
+				cand[curBoard[curUser]] = curUser;
 
 				write(newSocket, buff, strlen(buff));
 			}
@@ -126,36 +139,40 @@ printf("%d %s %d\n", curUser, inp, aite);
 			int pos1, pos2;
 			sscanf(climsg, "%s %d %d", inp, &pos1, &pos2);
 
-			if(pos1 < 0 || pos1 >= 3 || pos2 < 0 || pos2 >= 3 || cand != curUser)
+			if(pos1 < 0 || pos1 >= 3 || pos2 < 0 || pos2 >= 3 || cand[curBoard[curUser]] != curUser || board[curBoard[curUser]][3 * pos1 + pos2] != '.')
 			{
 				write(newSocket, "Invalid Move!\n", 14);
+
+				if(cand[curBoard[curUser]] != curUser) write(newSocket, "Not your turn!\n", 15);
+				if(board[curBoard[curUser]][3 * pos1 + pos2] != '.') write(newSocket, "Already has symbol\n", 19);
+
 				continue;
 			}
 
 			if(curUser < playwith[curUser])
 			{
-				board[3 * pos1 + pos2] = 'x';
+				board[curBoard[curUser]][3 * pos1 + pos2] = 'x';
 			}
 			else
 			{
-				board[3 * pos1 + pos2] = 'o';
+				board[curBoard[curUser]][3 * pos1 + pos2] = 'o';
 			}
 
 			int cur = 0;
 			for(int i = 0; i < 9; i++)
 			{
-				buff[cur++] = board[i];
+				buff[cur++] = board[curBoard[curUser]][i];
 				if(i % 3 == 2) buff[cur++] = '\n';
 			}
 			buff[cur] = 0;
 
-			if(win() == 1) strcat(buff, "User Wins.\nEnd.\n");
-			else if(win() == -1) strcat(buff, "Draw\n.End.\n");
+			if(win(curBoard[curUser]) == 1) strcat(buff, "User Wins.\nEnd.\n");
+			else if(win(curBoard[curUser]) == -1) strcat(buff, "Draw.\nEnd.\n");
 
 			write(newSocket, buff, strlen(buff));
 			write(playwith[curUser], buff, strlen(buff));
 
-			if(win())
+			if(win(curBoard[curUser]))
 			{
 				if(aite > 0)
 				{
@@ -163,10 +180,10 @@ printf("%d %s %d\n", curUser, inp, aite);
 				}
 				playwith[curUser] = 0;
 				aite = -1;
-				strcpy(board, ".........");
+				strcpy(board[curBoard[curUser]], ".........");
 			}
 
-			cand = playwith[curUser];
+			cand[curBoard[curUser]] = playwith[curUser];
 		}		
 	}
 	
@@ -192,6 +209,8 @@ int main()
 
 	bind(svrSocket, (struct sockaddr *) &svrAddr, sizeof(svrAddr));
 	listen(svrSocket, 10);
+
+	board_init();
 
 	memset(users, 0, sizeof(users));
 	pthread_t tid[50];
