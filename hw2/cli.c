@@ -31,6 +31,12 @@ void *thread_listen(void *args)
 		{
 			break;
 		}
+
+		if(strncmp("Play", buff, 4) == 0)
+		{
+			fgets(msg, BUFF_SIZE, stdin);
+			write(fd, msg, strlen(msg));
+		}
 	}
 
 	pthread_exit(NULL);

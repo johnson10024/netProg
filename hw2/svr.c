@@ -58,8 +58,9 @@ int win(int b)
 		}
 	}
 
+	if(result) return result;
 	if(isdraw) return -1;
-	return result;
+	return 0;
 }
 
 void *thread(void *arg)
@@ -108,14 +109,26 @@ void *thread(void *arg)
 		if(strncmp("playwith", climsg, 8) == 0)
 		{
 			sscanf(climsg, "%s %d", inp, &aite);
-printf("%d %s %d\n", curUser, inp, aite);
+
+			char ans[100];
 
 			if(playwith[aite] != 0 || aite == curUser)
 			{
-				write(newSocket, "Rejected!\n", 11);
+				write(newSocket, "Rejected!\n", 10);
 			}
 			else
 			{
+				sprintf(buff, "Play with %d?\n", curUser);
+				write(aite, buff, strlen(buff));
+				read(aite, climsg, BUFF_SIZE);
+				if(strncmp(climsg, "n", 1) == 0)
+				{
+printf("%d rej %d\n", aite, curUser);
+					write(newSocket, "Rejected!\n", 10);
+					continue;
+				}
+printf("%d playwith %d\n", curUser, aite);
+
 				sprintf(buff, "%d Accepted\n", aite);
 				playwith[aite] = curUser;
 				playwith[curUser] = aite;
