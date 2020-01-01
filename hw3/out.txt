@@ -1,0 +1,615 @@
+Timestamp: 2007-08-06 03:11:19 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:20 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:21 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:38 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:16
+
+<IPV6 Packet>
+Source: fe80::2d0:9ff:fee3:e8de
+Destination: ff02::16
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:38 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:ff:98:6:e1
+
+<IPV6 Packet>
+Source: ::
+Destination: ff02::1:ff98:6e1
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:39 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:fb
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:1033:c4c:7e57:b19e
+Destination: ff02::fb
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:39 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:fb
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:1033:c4c:7e57:b19e
+Destination: ff02::fb
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:39 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:fb
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:1033:c4c:7e57:b19e
+Destination: ff02::fb
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:40 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:fb
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:1033:c4c:7e57:b19e
+Destination: ff02::fb
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:40 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:fb
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:1033:c4c:7e57:b19e
+Destination: ff02::fb
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:40 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:fb
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:1033:c4c:7e57:b19e
+Destination: ff02::fb
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:41 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:fb
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:1033:c4c:7e57:b19e
+Destination: ff02::fb
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:43 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:fb
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:1033:c4c:7e57:b19e
+Destination: ff02::fb
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:43 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 33:33:0:0:0:16
+
+<IPV6 Packet>
+Source: fe80::2d0:9ff:fee3:e8de
+Destination: ff02::16
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:49 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:50 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:11:51 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:12:19 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:12:20 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:12:21 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:12:49 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:12:50 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:12:51 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:13:19 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:13:20 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:13:21 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:13:49 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:13:50 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:13:51 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:14:19 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:14:20 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:14:21 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:14:29 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:0:0:0:1
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1
+
+------------------------------
+
+Timestamp: 2007-08-06 03:14:49 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:14:50 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:14:51 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:15:19 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:15:20 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:15:21 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:15:49 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:15:50 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:15:51 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:19 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:20 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:21 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 33:33:ff:82:95:b5
+
+<IPV6 Packet>
+Source: fe80::211:25ff:fe82:95b5
+Destination: ff02::1:ff82:95b5
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 0:11:25:82:95:b5
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+Destination: 2001:6f8:900:7c0::2
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 0:d0:9:e3:e8:de
+
+<IPV6 Packet>
+Source: 2001:6f8:900:7c0::2
+Destination: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 0:11:25:82:95:b5
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+Destination: 2001:6f8:900:7c0::2
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 0:11:25:82:95:b5
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+Destination: 2001:6f8:900:7c0::2
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 0:d0:9:e3:e8:de
+
+<IPV6 Packet>
+Source: 2001:6f8:900:7c0::2
+Destination: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 0:d0:9:e3:e8:de
+
+<IPV6 Packet>
+Source: 2001:6f8:900:7c0::2
+Destination: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:11:25:82:95:b5
+Destination Address: 0:d0:9:e3:e8:de
+
+<IPV6 Packet>
+Source: 2001:6f8:900:7c0::2
+Destination: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 0:11:25:82:95:b5
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+Destination: 2001:6f8:900:7c0::2
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 0:11:25:82:95:b5
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+Destination: 2001:6f8:900:7c0::2
+
+------------------------------
+
+Timestamp: 2007-08-06 03:16:44 UTC
+
+Source Address: 0:d0:9:e3:e8:de
+Destination Address: 0:11:25:82:95:b5
+
+<IPV6 Packet>
+Source: 2001:6f8:102d:0:2d0:9ff:fee3:e8de
+Destination: 2001:6f8:900:7c0::2
+
+------------------------------
+
+
+=====Analysis=================
+
+2001:6f8:102d:0:1033:c4c:7e57:b19e -> ff02::fb:		8
+2001:6f8:102d:0:2d0:9ff:fee3:e8de -> 2001:6f8:900:7c0::2:		6
+2001:6f8:900:7c0::2 -> 2001:6f8:102d:0:2d0:9ff:fee3:e8de:		4
+:: -> ff02::1:ff98:6e1:		1
+fe80::211:25ff:fe82:95b5 -> ff02::1:		1
+fe80::211:25ff:fe82:95b5 -> ff02::1:ff82:95b5:		33
+fe80::2d0:9ff:fee3:e8de -> ff02::16:		2
